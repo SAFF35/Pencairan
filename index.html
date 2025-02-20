@@ -192,25 +192,13 @@ Withdraw (Pencairan)
   </p>
   <p></p>
   <p><strong>📋 SYARAT dan KETENTUAN:</strong></p>
-  
-  <ul>
-    <li>Minimal Pencairan Komisi/Bonus Rp 50.000,-</li>
-    <li>UNTUK PENCAIRAN KOMISI dan BONUS BIAYA ADMINISTRASINYA 1% -10%:</li>
-    <li>50.000 - 100.000 Biaya Admin 10%</li>
-    <li>101.000 - 300.000 Biaya Admin 8%</li>
-    <li>301.000 - 600.000 Biaya Admin 6%</li>
-    <li>601.000 - 900.000 Biaya Admin 5%</li>
-    <li>901.000 - 1.200.000 Biaya Admin 4%</li>
-    <li>1.201.000 - 1,6 juta Biaya Admin 3%</li>
-    <li>1,6 juta lebih - 10 juta Biaya Admin 2%</li>
-    <li>10 juta lebih - 100 juta Biaya Admin 1,8%</li>
-    <li>100 juta lebih - 1 M Biaya Admin 1,5%</li>
-    <li>1 M lebih - 3 M Biaya Admin 1%</li>
-  </ul>
-  <p>Misalkan Anda mencairkan Komisi/Bonus Anda sebesar Rp 55.000 maka uang yang Anda terima yaitu Rp 50.000. hitunganya Rp 55.000 - 5.000/ADM (10%× Rp 55.000) = Rp 50.000.</p>
-  
-  <p>Tim SAF tidak memungut pajak apapun, bagi mitra/anggota yang sudah terkena kewajiban pajak penghasilan kami menyerahkan kepada Anda semua masing-masing.</p>
-  
+  <p>1. <strong>Waktu Pencairan</strong>: Komisi/Bonus akan dicairkan setiap hari Senin - Sabtu pukul 08:00 - 16:00 WIB.</p>
+  <p>2. <strong>Minimal Pencairan</strong>: Minimal pencairan komisi/bonus adalah Rp 50.000.</p>
+  <p>3. <strong>Maksimal Pencairan</strong>: Maksimal pencairan komisi/bonus adalah Rp 10.000.000 per hari.</p>
+  <p>4. <strong>Biaya Administrasi</strong>: Fee Administrasi sebesar 1-10% dari jumlah komisi/bonus yang dicairkan, lihat contoh pencairan klik tombol di bawah.</p>
+  <p>5. <strong>Waktu Proses</strong>: Proses pencairan komisi/bonus memakan waktu sekitar 1-2 hari kerja.</p>
+  <p>Kewajiban pajak penghasilan kami menyerahkan kepada pribadi masing-masing.</p>
+
   <p>Untuk Penarikan Bonus Ebook (Bonus Tambahan 1/2) bagi yang berhak mendapatkanya, Klik tombol di bawah ini:</p>
   <p></p>
   <p><a href="https://SAFF35.github.io/EBo" class="button">👉 Pengambilan Bonus</a></p>
@@ -224,6 +212,1275 @@ Withdraw (Pencairan)
   <p><a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20mau%20mengklaim%20dan%20melakukan%20pengambilan%20Bonus%20Cuma-cuma.%0ANama%20Lengkap:%0AKode%20ID:%0ANomor%20WA:%20(untuk%20di%20hubungkan%20ke%20Website%20Anda)" class="button">👉 Pengambilan Bonus</a></p>
 <p></p>
 </div>
+  hhhh
+  
+    }
+    /* Styling tombol */
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px 0;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    /* Styling kontainer contoh pencairan */
+    .content {
+      display: none;
+      margin-top: 20px;
+    }
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .content th,
+    .content td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    .content th {
+      background-color: #f2f2f2;
+    }
+  </style>
+
+  <!-- Tombol untuk menampilkan/menyembunyikan contoh pencairan -->
+  <button id="toggleButton">Lihat Contoh Pencairan</button>
+
+  <!-- Kontainer yang berisi tabel contoh pencairan -->
+  <div class="content">
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Pencairan</th>
+          <th>Fee</th>
+          <th>Hasilnya</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Rp 50.000</td>
+          <td>Fee 10.00% = Rp 5.000</td>
+          <td>Rp 45.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rp 100.000</td>
+          <td>Fee 5.48% = Rp 5.480</td>
+          <td>Rp 94.520</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Rp 150.000</td>
+          <td>Fee 3.97% = Rp 5.955</td>
+          <td>Rp 144.045</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Rp 200.000</td>
+          <td>Fee 3.22% = Rp 6.440</td>
+          <td>Rp 193.560</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Rp 250.000</td>
+          <td>Fee 2.76% = Rp 6.900</td>
+          <td>Rp 243.100</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Rp 300.000</td>
+          <td>Fee 2.46% = Rp 7.380</td>
+          <td>Rp 292.620</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Rp 350.000</td>
+          <td>Fee 2.25% = Rp 7.875</td>
+          <td>Rp 342.125</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Rp 400.000</td>
+          <td>Fee 2.09% = Rp 8.360</td>
+          <td>Rp 391.640</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Rp 450.000</td>
+          <td>Fee 1.96% = Rp 8.820</td>
+          <td>Rp 441.180</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Rp 500.000</td>
+          <td>Fee 1.86% = Rp 9.300</td>
+          <td>Rp 490.700</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Rp 550.000</td>
+          <td>Fee 1.78% = Rp 9.790</td>
+          <td>Rp 540.210</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Rp 600.000</td>
+          <td>Fee 1.71% = Rp 10.260</td>
+          <td>Rp 589.740</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Rp 650.000</td>
+          <td>Fee 1.65% = Rp 10.725</td>
+          <td>Rp 639.275</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Rp 700.000</td>
+          <td>Fee 1.60% = Rp 11.200</td>
+          <td>Rp 688.800</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Rp 750.000</td>
+          <td>Fee 1.56% = Rp 11.700</td>
+          <td>Rp 738.300</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>Rp 800.000</td>
+          <td>Fee 1.53% = Rp 12.240</td>
+          <td>Rp 787.760</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Rp 850.000</td>
+          <td>Fee 1.51% = Rp 12.835</td>
+          <td>Rp 837.165</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Rp 900.000</td>
+          <td>Fee 1.49% = Rp 13.410</td>
+          <td>Rp 886.590</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Rp 950.000</td>
+          <td>Fee 1.48% = Rp 14.060</td>
+          <td>Rp 935.940</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Rp 1.000.000</td>
+          <td>Fee 1.41% = Rp 14.100</td>
+          <td>Rp 985.900</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>Rp 1.050.000</td>
+          <td>Fee 1.39% = Rp 14.595</td>
+          <td>Rp 1.035.405</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Rp 1.100.000</td>
+          <td>Fee 1.38% = Rp 15.180</td>
+          <td>Rp 1.084.820</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>Rp 1.150.000</td>
+          <td>Fee 1.37% = Rp 15.755</td>
+          <td>Rp 1.134.245</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Rp 1.200.000</td>
+          <td>Fee 1.36% = Rp 16.320</td>
+          <td>Rp 1.183.680</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>Rp 1.250.000</td>
+          <td>Fee 1.35% = Rp 16.875</td>
+          <td>Rp 1.233.125</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>Rp 1.300.000</td>
+          <td>Fee 1.34% = Rp 17.420</td>
+          <td>Rp 1.282.580</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Rp 1.350.000</td>
+          <td>Fee 1.33% = Rp 17.955</td>
+          <td>Rp 1.332.045</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>Rp 1.400.000</td>
+          <td>Fee 1.32% = Rp 18.480</td>
+          <td>Rp 1.381.520</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Rp 1.450.000</td>
+          <td>Fee 1.32% = Rp 19.140</td>
+          <td>Rp 1.430.860</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>Rp 1.500.000</td>
+          <td>Fee 1.31% = Rp 19.650</td>
+          <td>Rp 1.480.350</td>
+        </tr>
+        <tr>
+          <td>31</td>
+          <td>Rp 1.550.000</td>
+          <td>Fee 1.30% = Rp 20.150</td>
+          <td>Rp 1.529.850</td>
+        </tr>
+        <tr>
+          <td>32</td>
+          <td>Rp 1.600.000</td>
+          <td>Fee 1.30% = Rp 20.800</td>
+          <td>Rp 1.579.200</td>
+        </tr>
+        <tr>
+          <td>33</td>
+          <td>Rp 1.650.000</td>
+          <td>Fee 1.29% = Rp 21.285</td>
+          <td>Rp 1.628.715</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>Rp 1.700.000</td>
+          <td>Fee 1.28% = Rp 21.760</td>
+          <td>Rp 1.678.240</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Rp 1.750.000</td>
+          <td>Fee 1.28% = Rp 22.400</td>
+          <td>Rp 1.727.600</td>
+        </tr>
+        <tr>
+          <td>36</td>
+          <td>Rp 1.800.000</td>
+          <td>Fee 1.27% = Rp 22.860</td>
+          <td>Rp 1.777.140</td>
+        </tr>
+        <tr>
+          <td>37</td>
+          <td>Rp 1.850.000</td>
+          <td>Fee 1.27% = Rp 23.495</td>
+          <td>Rp 1.826.505</td>
+        </tr>
+        <tr>
+          <td>38</td>
+          <td>Rp 1.900.000</td>
+          <td>Fee 1.26% = Rp 23.940</td>
+          <td>Rp 1.876.060</td>
+        </tr>
+        <tr>
+          <td>39</td>
+          <td>Rp 1.950.000</td>
+          <td>Fee 1.26% = Rp 24.570</td>
+          <td>Rp 1.925.430</td>
+        </tr>
+        <tr>
+          <td>40</td>
+          <td>Rp 2.000.000</td>
+          <td>Fee 1.25% = Rp 25.000</td>
+          <td>Rp 1.975.000</td>
+        </tr>
+        <tr>
+          <td>41</td>
+          <td>Rp 2.050.000</td>
+          <td>Fee 1.25% = Rp 25.625</td>
+          <td>Rp 2.024.375</td>
+        </tr>
+        <tr>
+          <td>42</td>
+          <td>Rp 2.100.000</td>
+          <td>Fee 1.24% = Rp 26.040</td>
+          <td>Rp 2.073.960</td>
+        </tr>
+        <tr>
+          <td>43</td>
+          <td>Rp 2.150.000</td>
+          <td>Fee 1.24% = Rp 26.660</td>
+          <td>Rp 2.123.340</td>
+        </tr>
+        <tr>
+          <td>44</td>
+          <td>Rp 2.200.000</td>
+          <td>Fee 1.24% = Rp 27.280</td>
+          <td>Rp 2.172.720</td>
+        </tr>
+        <tr>
+          <td>45</td>
+          <td>Rp 2.250.000</td>
+          <td>Fee 1.23% = Rp 27.675</td>
+          <td>Rp 2.222.325</td>
+        </tr>
+        <tr>
+          <td>46</td>
+          <td>Rp 2.300.000</td>
+          <td>Fee 1.23% = Rp 28.290</td>
+          <td>Rp 2.271.710</td>
+        </tr>
+        <tr>
+          <td>47</td>
+          <td>Rp 2.350.000</td>
+          <td>Fee 1.22% = Rp 28.670</td>
+          <td>Rp 2.321.330</td>
+        </tr>
+        <tr>
+          <td>48</td>
+          <td>Rp 2.400.000</td>
+          <td>Fee 1.22% = Rp 29.280</td>
+          <td>Rp 2.370.720</td>
+        </tr>
+        <tr>
+          <td>49</td>
+          <td>Rp 2.450.000</td>
+          <td>Fee 1.22% = Rp 29.890</td>
+          <td>Rp 2.420.110</td>
+        </tr>
+        <tr>
+          <td>50</td>
+          <td>Rp 2.500.000</td>
+          <td>Fee 1.21% = Rp 30.250</td>
+          <td>Rp 2.469.750</td>
+        </tr>
+        <tr>
+          <td>51</td>
+          <td>Rp 2.550.000</td>
+          <td>Fee 1.21% = Rp 30.855</td>
+          <td>Rp 2.519.145</td>
+        </tr>
+        <tr>
+          <td>52</td>
+          <td>Rp 2.600.000</td>
+          <td>Fee 1.21% = Rp 31.460</td>
+          <td>Rp 2.568.540</td>
+        </tr>
+        <tr>
+          <td>53</td>
+          <td>Rp 2.650.000</td>
+          <td>Fee 1.20% = Rp 31.800</td>
+          <td>Rp 2.618.200</td>
+        </tr>
+        <tr>
+          <td>54</td>
+          <td>Rp 2.700.000</td>
+          <td>Fee 1.20% = Rp 32.400</td>
+          <td>Rp 2.667.600</td>
+        </tr>
+        <tr>
+          <td>55</td>
+          <td>Rp 2.750.000</td>
+          <td>Fee 1.20% = Rp 33.000</td>
+          <td>Rp 2.717.000</td>
+        </tr>
+        <tr>
+          <td>56</td>
+          <td>Rp 2.800.000</td>
+          <td>Fee 1.20% = Rp 33.600</td>
+          <td>Rp 2.766.400</td>
+        </tr>
+        <tr>
+          <td>57</td>
+          <td>Rp 2.850.000</td>
+          <td>Fee 1.19% = Rp 33.915</td>
+          <td>Rp 2.816.085</td>
+        </tr>
+        <tr>
+          <td>58</td>
+          <td>Rp 2.900.000</td>
+          <td>Fee 1.19% = Rp 34.510</td>
+          <td>Rp 2.865.490</td>
+        </tr>
+        <tr>
+          <td>59</td>
+          <td>Rp 2.950.000</td>
+          <td>Fee 1.19% = Rp 35.105</td>
+          <td>Rp 2.914.895</td>
+        </tr>
+        <tr>
+          <td>60</td>
+          <td>Rp 3.000.000</td>
+          <td>Fee 1.19% = Rp 35.700</td>
+          <td>Rp 2.964.300</td>
+        </tr>
+        <tr>
+          <td>61</td>
+          <td>Rp 3.050.000</td>
+          <td>Fee 1.18% = Rp 35.990</td>
+          <td>Rp 3.014.010</td>
+        </tr>
+        <tr>
+          <td>62</td>
+          <td>Rp 3.100.000</td>
+          <td>Fee 1.18% = Rp 36.580</td>
+          <td>Rp 3.063.420</td>
+        </tr>
+        <tr>
+          <td>63</td>
+          <td>Rp 3.150.000</td>
+          <td>Fee 1.18% = Rp 37.170</td>
+          <td>Rp 3.112.830</td>
+        </tr>
+        <tr>
+          <td>64</td>
+          <td>Rp 3.200.000</td>
+          <td>Fee 1.18% = Rp 37.760</td>
+          <td>Rp 3.162.240</td>
+        </tr>
+        <tr>
+          <td>65</td>
+          <td>Rp 3.250.000</td>
+          <td>Fee 1.17% = Rp 38.025</td>
+          <td>Rp 3.211.975</td>
+        </tr>
+        <tr>
+          <td>66</td>
+          <td>Rp 3.300.000</td>
+          <td>Fee 1.17% = Rp 38.610</td>
+          <td>Rp 3.261.390</td>
+        </tr>
+        <tr>
+          <td>67</td>
+          <td>Rp 3.350.000</td>
+          <td>Fee 1.17% = Rp 39.195</td>
+          <td>Rp 3.310.805</td>
+        </tr>
+        <tr>
+          <td>68</td>
+          <td>Rp 3.400.000</td>
+          <td>Fee 1.17% = Rp 39.780</td>
+          <td>Rp 3.360.220</td>
+        </tr>
+        <tr>
+          <td>69</td>
+          <td>Rp 3.450.000</td>
+          <td>Fee 1.16% = Rp 40.020</td>
+          <td>Rp 3.409.980</td>
+        </tr>
+        <tr>
+          <td>70</td>
+          <td>Rp 3.500.000</td>
+          <td>Fee 1.16% = Rp 40.600</td>
+          <td>Rp 3.459.400</td>
+        </tr>
+        <tr>
+          <td>71</td>
+          <td>Rp 3.550.000</td>
+          <td>Fee 1.16% = Rp 41.180</td>
+          <td>Rp 3.508.820</td>
+        </tr>
+        <tr>
+          <td>72</td>
+          <td>Rp 3.600.000</td>
+          <td>Fee 1.16% = Rp 41.760</td>
+          <td>Rp 3.558.240</td>
+        </tr>
+        <tr>
+          <td>73</td>
+          <td>Rp 3.650.000</td>
+          <td>Fee 1.15% = Rp 41.975</td>
+          <td>Rp 3.608.025</td>
+        </tr>
+        <tr>
+          <td>74</td>
+          <td>Rp 3.700.000</td>
+          <td>Fee 1.15% = Rp 42.550</td>
+          <td>Rp 3.657.450</td>
+        </tr>
+        <tr>
+          <td>75</td>
+          <td>Rp 3.750.000</td>
+          <td>Fee 1.15% = Rp 43.125</td>
+          <td>Rp 3.706.875</td>
+        </tr>
+        <tr>
+          <td>76</td>
+          <td>Rp 3.800.000</td>
+          <td>Fee 1.15% = Rp 43.700</td>
+          <td>Rp 3.756.300</td>
+        </tr>
+        <tr>
+          <td>77</td>
+          <td>Rp 3.850.000</td>
+          <td>Fee 1.14% = Rp 43.890</td>
+          <td>Rp 3.806.110</td>
+        </tr>
+        <tr>
+          <td>78</td>
+          <td>Rp 3.900.000</td>
+          <td>Fee 1.14% = Rp 44.460</td>
+          <td>Rp 3.855.540</td>
+        </tr>
+        <tr>
+          <td>79</td>
+          <td>Rp 3.950.000</td>
+          <td>Fee 1.14% = Rp 45.030</td>
+          <td>Rp 3.904.970</td>
+        </tr>
+        <tr>
+          <td>80</td>
+          <td>Rp 4.000.000</td>
+          <td>Fee 1.14% = Rp 45.600</td>
+          <td>Rp 3.954.400</td>
+        </tr>
+        <tr>
+          <td>81</td>
+          <td>Rp 4.050.000</td>
+          <td>Fee 1.14% = Rp 46.170</td>
+          <td>Rp 4.003.830</td>
+        </tr>
+        <tr>
+          <td>82</td>
+          <td>Rp 4.100.000</td>
+          <td>Fee 1.13% = Rp 46.330</td>
+          <td>Rp 4.053.670</td>
+        </tr>
+        <tr>
+          <td>83</td>
+          <td>Rp 4.150.000</td>
+          <td>Fee 1.13% = Rp 46.895</td>
+          <td>Rp 4.103.105</td>
+        </tr>
+        <tr>
+          <td>84</td>
+          <td>Rp 4.200.000</td>
+          <td>Fee 1.13% = Rp 47.460</td>
+          <td>Rp 4.152.540</td>
+        </tr>
+        <tr>
+          <td>85</td>
+          <td>Rp 4.250.000</td>
+          <td>Fee 1.13% = Rp 48.025</td>
+          <td>Rp 4.201.975</td>
+        </tr>
+        <tr>
+          <td>86</td>
+          <td>Rp 4.300.000</td>
+          <td>Fee 1.12% = Rp 48.160</td>
+          <td>Rp 4.251.840</td>
+        </tr>
+        <tr>
+          <td>87</td>
+          <td>Rp 4.350.000</td>
+          <td>Fee 1.12% = Rp 48.720</td>
+          <td>Rp 4.301.280</td>
+        </tr>
+        <tr>
+          <td>88</td>
+          <td>Rp 4.400.000</td>
+          <td>Fee 1.12% = Rp 49.280</td>
+          <td>Rp 4.350.720</td>
+        </tr>
+        <tr>
+          <td>89</td>
+          <td>Rp 4.450.000</td>
+          <td>Fee 1.12% = Rp 49.840</td>
+          <td>Rp 4.400.160</td>
+        </tr>
+        <tr>
+          <td>90</td>
+          <td>Rp 4.500.000</td>
+          <td>Fee 1.11% = Rp 49.950</td>
+          <td>Rp 4.450.050</td>
+        </tr>
+        <tr>
+          <td>91</td>
+          <td>Rp 4.550.000</td>
+          <td>Fee 1.11% = Rp 50.505</td>
+          <td>Rp 4.499.495</td>
+        </tr>
+        <tr>
+          <td>92</td>
+          <td>Rp 4.600.000</td>
+          <td>Fee 1.11% = Rp 51.060</td>
+          <td>Rp 4.548.940</td>
+        </tr>
+        <tr>
+          <td>93</td>
+          <td>Rp 4.650.000</td>
+          <td>Fee 1.11% = Rp 51.615</td>
+          <td>Rp 4.598.385</td>
+        </tr>
+        <tr>
+          <td>94</td>
+          <td>Rp 4.700.000</td>
+          <td>Fee 1.10% = Rp 51.700</td>
+          <td>Rp 4.648.300</td>
+        </tr>
+        <tr>
+          <td>95</td>
+          <td>Rp 4.750.000</td>
+          <td>Fee 1.10% = Rp 52.250</td>
+          <td>Rp 4.697.750</td>
+        </tr>
+        <tr>
+          <td>96</td>
+          <td>Rp 4.800.000</td>
+          <td>Fee 1.10% = Rp 52.800</td>
+          <td>Rp 4.747.200</td>
+        </tr>
+        <tr>
+          <td>97</td>
+          <td>Rp 4.850.000</td>
+          <td>Fee 1.10% = Rp 53.350</td>
+          <td>Rp 4.796.650</td>
+        </tr>
+        <tr>
+          <td>98</td>
+          <td>Rp 4.900.000</td>
+          <td>Fee 1.10% = Rp 53.900</td>
+          <td>Rp 4.846.100</td>
+        </tr>
+        <tr>
+          <td>99</td>
+          <td>Rp 4.950.000</td>
+          <td>Fee 1.10% = Rp 54.450</td>
+          <td>Rp 4.895.550</td>
+        </tr>
+        <tr>
+          <td>100</td>
+          <td>Rp 5.000.000</td>
+          <td>Fee 1.10% = Rp 55.000</td>
+          <td>Rp 4.945.000</td>
+        </tr>
+        <tr>
+          <td>101</td>
+          <td>Rp 5.050.000</td>
+          <td>Fee 1.09% = Rp 55.145</td>
+          <td>Rp 4.994.855</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td>Rp 5.100.000</td>
+          <td>Fee 1.09% = Rp 55.590</td>
+          <td>Rp 5.044.410</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td>Rp 5.150.000</td>
+          <td>Fee 1.09% = Rp 56.135</td>
+          <td>Rp 5.093.865</td>
+        </tr>
+        <tr>
+          <td>104</td>
+          <td>Rp 5.200.000</td>
+          <td>Fee 1.09% = Rp 56.680</td>
+          <td>Rp 5.143.320</td>
+        </tr>
+        <tr>
+          <td>105</td>
+          <td>Rp 5.250.000</td>
+          <td>Fee 1.09% = Rp 57.225</td>
+          <td>Rp 5.192.775</td>
+        </tr>
+        <tr>
+          <td>106</td>
+          <td>Rp 5.300.000</td>
+          <td>Fee 1.09% = Rp 57.770</td>
+          <td>Rp 5.242.230</td>
+        </tr>
+        <tr>
+          <td>107</td>
+          <td>Rp 5.350.000</td>
+          <td>Fee 1.09% = Rp 58.315</td>
+          <td>Rp 5.291.685</td>
+        </tr>
+        <tr>
+          <td>108</td>
+          <td>Rp 5.400.000</td>
+          <td>Fee 1.08% = Rp 58.320</td>
+          <td>Rp 5.341.680</td>
+        </tr>
+        <tr>
+          <td>109</td>
+          <td>Rp 5.450.000</td>
+          <td>Fee 1.08% = Rp 58.860</td>
+          <td>Rp 5.391.140</td>
+        </tr>
+        <tr>
+          <td>110</td>
+          <td>Rp 5.500.000</td>
+          <td>Fee 1.08% = Rp 59.400</td>
+          <td>Rp 5.440.600</td>
+        </tr>
+        <tr>
+          <td>111</td>
+          <td>Rp 5.550.000</td>
+          <td>Fee 1.08% = Rp 59.940</td>
+          <td>Rp 5.490.060</td>
+        </tr>
+        <tr>
+          <td>112</td>
+          <td>Rp 5.600.000</td>
+          <td>Fee 1.08% = Rp 60.480</td>
+          <td>Rp 5.539.520</td>
+        </tr>
+        <tr>
+          <td>113</td>
+          <td>Rp 5.650.000</td>
+          <td>Fee 1.08% = Rp 61.020</td>
+          <td>Rp 5.588.980</td>
+        </tr>
+        <tr>
+          <td>114</td>
+          <td>Rp 5.700.000</td>
+          <td>Fee 1.07% = Rp 60.990</td>
+          <td>Rp 5.639.010</td>
+        </tr>
+        <tr>
+          <td>115</td>
+          <td>Rp 5.750.000</td>
+          <td>Fee 1.07% = Rp 61.525</td>
+          <td>Rp 5.688.475</td>
+        </tr>
+        <tr>
+          <td>116</td>
+          <td>Rp 5.800.000</td>
+          <td>Fee 1.07% = Rp 62.060</td>
+          <td>Rp 5.737.940</td>
+        </tr>
+        <tr>
+          <td>117</td>
+          <td>Rp 5.850.000</td>
+          <td>Fee 1.07% = Rp 62.595</td>
+          <td>Rp 5.787.405</td>
+        </tr>
+        <tr>
+          <td>118</td>
+          <td>Rp 5.900.000</td>
+          <td>Fee 1.07% = Rp 63.130</td>
+          <td>Rp 5.836.870</td>
+        </tr>
+        <tr>
+          <td>119</td>
+          <td>Rp 5.950.000</td>
+          <td>Fee 1.07% = Rp 63.665</td>
+          <td>Rp 5.886.335</td>
+        </tr>
+        <tr>
+          <td>120</td>
+          <td>Rp 6.000.000</td>
+          <td>Fee 1.07% = Rp 64.200</td>
+          <td>Rp 5.935.800</td>
+        </tr>
+        <tr>
+          <td>121</td>
+          <td>Rp 6.050.000</td>
+          <td>Fee 1.06% = Rp 64.130</td>
+          <td>Rp 5.985.870</td>
+        </tr>
+        <tr>
+          <td>122</td>
+          <td>Rp 6.100.000</td>
+          <td>Fee 1.06% = Rp 64.660</td>
+          <td>Rp 6.035.340</td>
+        </tr>
+        <tr>
+          <td>123</td>
+          <td>Rp 6.150.000</td>
+          <td>Fee 1.06% = Rp 65.190</td>
+          <td>Rp 6.084.810</td>
+        </tr>
+        <tr>
+          <td>124</td>
+          <td>Rp 6.200.000</td>
+          <td>Fee 1.06% = Rp 65.720</td>
+          <td>Rp 6.134.280</td>
+        </tr>
+        <tr>
+          <td>125</td>
+          <td>Rp 6.250.000</td>
+          <td>Fee 1.06% = Rp 66.250</td>
+          <td>Rp 6.183.750</td>
+        </tr>
+        <tr>
+          <td>126</td>
+          <td>Rp 6.300.000</td>
+          <td>Fee 1.06% = Rp 66.780</td>
+          <td>Rp 6.233.220</td>
+        </tr>
+        <tr>
+          <td>127</td>
+          <td>Rp 6.350.000</td>
+          <td>Fee 1.05% = Rp 66.675</td>
+          <td>Rp 6.283.325</td>
+        </tr>
+        <tr>
+          <td>128</td>
+          <td>Rp 6.400.000</td>
+          <td>Fee 1.05% = Rp 67.200</td>
+          <td>Rp 6.332.800</td>
+        </tr>
+        <tr>
+          <td>129</td>
+          <td>Rp 6.450.000</td>
+          <td>Fee 1.05% = Rp 67.725</td>
+          <td>Rp 6.382.275</td>
+        </tr>
+        <tr>
+          <td>130</td>
+          <td>Rp 6.500.000</td>
+          <td>Fee 1.05% = Rp 68.250</td>
+          <td>Rp 6.431.750</td>
+        </tr>
+        <tr>
+          <td>131</td>
+          <td>Rp 6.550.000</td>
+          <td>Fee 1.05% = Rp 68.775</td>
+          <td>Rp 6.481.225</td>
+        </tr>
+        <tr>
+          <td>132</td>
+          <td>Rp 6.600.000</td>
+          <td>Fee 1.05% = Rp 69.300</td>
+          <td>Rp 6.530.700</td>
+        </tr>
+        <tr>
+          <td>133</td>
+          <td>Rp 6.650.000</td>
+          <td>Fee 1.04% = Rp 69.160</td>
+          <td>Rp 6.580.840</td>
+        </tr>
+        <tr>
+          <td>134</td>
+          <td>Rp 6.700.000</td>
+          <td>Fee 1.04% = Rp 69.680</td>
+          <td>Rp 6.630.320</td>
+        </tr>
+        <tr>
+          <td>135</td>
+          <td>Rp 6.750.000</td>
+          <td>Fee 1.04% = Rp 70.200</td>
+          <td>Rp 6.679.800</td>
+        </tr>
+        <tr>
+          <td>136</td>
+          <td>Rp 6.800.000</td>
+          <td>Fee 1.04% = Rp 70.720</td>
+          <td>Rp 6.729.280</td>
+        </tr>
+        <tr>
+          <td>137</td>
+          <td>Rp 6.850.000</td>
+          <td>Fee 1.04% = Rp 71.240</td>
+          <td>Rp 6.778.760</td>
+        </tr>
+        <tr>
+          <td>138</td>
+          <td>Rp 6.900.000</td>
+          <td>Fee 1.04% = Rp 71.760</td>
+          <td>Rp 6.828.240</td>
+        </tr>
+        <tr>
+          <td>139</td>
+          <td>Rp 6.950.000</td>
+          <td>Fee 1.03% = Rp 71.585</td>
+          <td>Rp 6.878.415</td>
+        </tr>
+        <tr>
+          <td>140</td>
+          <td>Rp 7.000.000</td>
+          <td>Fee 1.03% = Rp 72.100</td>
+          <td>Rp 6.927.900</td>
+        </tr>
+        <tr>
+          <td>141</td>
+          <td>Rp 7.050.000</td>
+          <td>Fee 1.03% = Rp 72.615</td>
+          <td>Rp 6.977.385</td>
+        </tr>
+        <tr>
+          <td>142</td>
+          <td>Rp 7.100.000</td>
+          <td>Fee 1.03% = Rp 73.130</td>
+          <td>Rp 7.026.870</td>
+        </tr>
+        <tr>
+          <td>143</td>
+          <td>Rp 7.150.000</td>
+          <td>Fee 1.03% = Rp 73.645</td>
+          <td>Rp 7.076.355</td>
+        </tr>
+        <tr>
+          <td>144</td>
+          <td>Rp 7.200.000</td>
+          <td>Fee 1.02% = Rp 73.440</td>
+          <td>Rp 7.126.560</td>
+        </tr>
+        <tr>
+          <td>145</td>
+          <td>Rp 7.250.000</td>
+          <td>Fee 1.02% = Rp 73.950</td>
+          <td>Rp 7.176.050</td>
+        </tr>
+        <tr>
+          <td>146</td>
+          <td>Rp 7.300.000</td>
+          <td>Fee 1.02% = Rp 74.460</td>
+          <td>Rp 7.225.540</td>
+        </tr>
+        <tr>
+          <td>147</td>
+          <td>Rp 7.350.000</td>
+          <td>Fee 1.02% = Rp 74.970</td>
+          <td>Rp 7.275.030</td>
+        </tr>
+        <tr>
+          <td>148</td>
+          <td>Rp 7.400.000</td>
+          <td>Fee 1.02% = Rp 75.480</td>
+          <td>Rp 7.324.520</td>
+        </tr>
+        <tr>
+          <td>149</td>
+          <td>Rp 7.450.000</td>
+          <td>Fee 1.02% = Rp 75.990</td>
+          <td>Rp 7.374.010</td>
+        </tr>
+        <tr>
+          <td>150</td>
+          <td>Rp 7.500.000</td>
+          <td>Fee 1.01% = Rp 75.750</td>
+          <td>Rp 7.424.250</td>
+        </tr>
+        <tr>
+          <td>151</td>
+          <td>Rp 7.550.000</td>
+          <td>Fee 1.01% = Rp 76.255</td>
+          <td>Rp 7.473.745</td>
+        </tr>
+        <tr>
+          <td>152</td>
+          <td>Rp 7.600.000</td>
+          <td>Fee 1.01% = Rp 76.760</td>
+          <td>Rp 7.523.240</td>
+        </tr>
+        <tr>
+          <td>153</td>
+          <td>Rp 7.650.000</td>
+          <td>Fee 1.01% = Rp 77.265</td>
+          <td>Rp 7.572.735</td>
+        </tr>
+        <tr>
+          <td>154</td>
+          <td>Rp 7.700.000</td>
+          <td>Fee 1.01% = Rp 77.770</td>
+          <td>Rp 7.622.230</td>
+        </tr>
+        <tr>
+          <td>155</td>
+          <td>Rp 7.750.000</td>
+          <td>Fee 1.01% = Rp 78.275</td>
+          <td>Rp 7.671.725</td>
+        </tr>
+        <tr>
+          <td>156</td>
+          <td>Rp 7.800.000</td>
+          <td>Fee 1.00% = Rp 78.000</td>
+          <td>Rp 7.722.000</td>
+        </tr>
+        <tr>
+          <td>157</td>
+          <td>Rp 7.850.000</td>
+          <td>Fee 1.00% = Rp 78.500</td>
+          <td>Rp 7.771.500</td>
+        </tr>
+        <tr>
+          <td>158</td>
+          <td>Rp 7.900.000</td>
+          <td>Fee 1.00% = Rp 79.000</td>
+          <td>Rp 7.821.000</td>
+        </tr>
+        <tr>
+          <td>159</td>
+          <td>Rp 7.950.000</td>
+          <td>Fee 1.00% = Rp 79.500</td>
+          <td>Rp 7.870.500</td>
+        </tr>
+        <tr>
+          <td>160</td>
+          <td>Rp 8.000.000</td>
+          <td>Fee 1.00% = Rp 80.000</td>
+          <td>Rp 7.920.000</td>
+        </tr>
+        <tr>
+          <td>161</td>
+          <td>Rp 8.050.000</td>
+          <td>Fee 1.00% = Rp 80.500</td>
+          <td>Rp 7.969.500</td>
+        </tr>
+        <tr>
+          <td>162</td>
+          <td>Rp 8.100.000</td>
+          <td>Fee 1.00% = Rp 81.000</td>
+          <td>Rp 8.019.000</td>
+        </tr>
+        <tr>
+          <td>163</td>
+          <td>Rp 8.150.000</td>
+          <td>Fee 1.00% = Rp 81.500</td>
+          <td>Rp 8.068.500</td>
+        </tr>
+        <tr>
+          <td>164</td>
+          <td>Rp 8.200.000</td>
+          <td>Fee 1.00% = Rp 82.000</td>
+          <td>Rp 8.118.000</td>
+        </tr>
+        <tr>
+          <td>165</td>
+          <td>Rp 8.250.000</td>
+          <td>Fee 1.00% = Rp 82.500</td>
+          <td>Rp 8.167.500</td>
+        </tr>
+        <tr>
+          <td>166</td>
+          <td>Rp 8.300.000</td>
+          <td>Fee 1.00% = Rp 83.000</td>
+          <td>Rp 8.217.000</td>
+        </tr>
+        <tr>
+          <td>167</td>
+          <td>Rp 8.350.000</td>
+          <td>Fee 1.00% = Rp 83.500</td>
+          <td>Rp 8.266.500</td>
+        </tr>
+        <tr>
+          <td>168</td>
+          <td>Rp 8.400.000</td>
+          <td>Fee 1.00% = Rp 84.000</td>
+          <td>Rp 8.316.000</td>
+        </tr>
+        <tr>
+          <td>169</td>
+          <td>Rp 8.450.000</td>
+          <td>Fee 1.00% = Rp 84.500</td>
+          <td>Rp 8.365.500</td>
+        </tr>
+        <tr>
+          <td>170</td>
+          <td>Rp 8.500.000</td>
+          <td>Fee 1.00% = Rp 85.000</td>
+          <td>Rp 8.415.000</td>
+        </tr>
+        <tr>
+          <td>171</td>
+          <td>Rp 8.550.000</td>
+          <td>Fee 1.00% = Rp 85.500</td>
+          <td>Rp 8.464.500</td>
+        </tr>
+        <tr>
+          <td>172</td>
+          <td>Rp 8.600.000</td>
+          <td>Fee 1.00% = Rp 86.000</td>
+          <td>Rp 8.514.000</td>
+        </tr>
+        <tr>
+          <td>173</td>
+          <td>Rp 8.650.000</td>
+          <td>Fee 1.00% = Rp 86.500</td>
+          <td>Rp 8.563.500</td>
+        </tr>
+        <tr>
+          <td>174</td>
+          <td>Rp 8.700.000</td>
+          <td>Fee 1.00% = Rp 87.000</td>
+          <td>Rp 8.613.000</td>
+        </tr>
+        <tr>
+          <td>175</td>
+          <td>Rp 8.750.000</td>
+          <td>Fee 1.00% = Rp 87.500</td>
+          <td>Rp 8.662.500</td>
+        </tr>
+        <tr>
+          <td>176</td>
+          <td>Rp 8.800.000</td>
+          <td>Fee 1.00% = Rp 88.000</td>
+          <td>Rp 8.712.000</td>
+        </tr>
+        <tr>
+          <td>177</td>
+          <td>Rp 8.850.000</td>
+          <td>Fee 1.00% = Rp 88.500</td>
+          <td>Rp 8.761.500</td>
+        </tr>
+        <tr>
+          <td>178</td>
+          <td>Rp 8.900.000</td>
+          <td>Fee 1.00% = Rp 89.000</td>
+          <td>Rp 8.811.000</td>
+        </tr>
+        <tr>
+          <td>179</td>
+          <td>Rp 8.950.000</td>
+          <td>Fee 1.00% = Rp 89.500</td>
+          <td>Rp 8.860.500</td>
+        </tr>
+        <tr>
+          <td>180</td>
+          <td>Rp 9.000.000</td>
+          <td>Fee 1.00% = Rp 90.000</td>
+          <td>Rp 8.910.000</td>
+        </tr>
+        <tr>
+          <td>181</td>
+          <td>Rp 9.050.000</td>
+          <td>Fee 1.00% = Rp 90.500</td>
+          <td>Rp 8.959.500</td>
+        </tr>
+        <tr>
+          <td>182</td>
+          <td>Rp 9.100.000</td>
+          <td>Fee 1.00% = Rp 91.000</td>
+          <td>Rp 9.009.000</td>
+        </tr>
+        <tr>
+          <td>183</td>
+          <td>Rp 9.150.000</td>
+          <td>Fee 1.00% = Rp 91.500</td>
+          <td>Rp 9.058.500</td>
+        </tr>
+        <tr>
+          <td>184</td>
+          <td>Rp 9.200.000</td>
+          <td>Fee 1.00% = Rp 92.000</td>
+          <td>Rp 9.108.000</td>
+        </tr>
+        <tr>
+          <td>185</td>
+          <td>Rp 9.250.000</td>
+          <td>Fee 1.00% = Rp 92.500</td>
+          <td>Rp 9.157.500</td>
+        </tr>
+        <tr>
+          <td>186</td>
+          <td>Rp 9.300.000</td>
+          <td>Fee 1.00% = Rp 93.000</td>
+          <td>Rp 9.207.000</td>
+        </tr>
+        <tr>
+          <td>187</td>
+          <td>Rp 9.350.000</td>
+          <td>Fee 1.00% = Rp 93.500</td>
+          <td>Rp 9.256.500</td>
+        </tr>
+        <tr>
+          <td>188</td>
+          <td>Rp 9.400.000</td>
+          <td>Fee 1.00% = Rp 94.000</td>
+          <td>Rp 9.306.000</td>
+        </tr>
+        <tr>
+          <td>189</td>
+          <td>Rp 9.450.000</td>
+          <td>Fee 1.00% = Rp 94.500</td>
+          <td>Rp 9.355.500</td>
+        </tr>
+        <tr>
+          <td>190</td>
+          <td>Rp 9.500.000</td>
+          <td>Fee 1.00% = Rp 95.000</td>
+          <td>Rp 9.405.000</td>
+        </tr>
+        <tr>
+          <td>191</td>
+          <td>Rp 9.550.000</td>
+          <td>Fee 1.00% = Rp 95.500</td>
+          <td>Rp 9.454.500</td>
+        </tr>
+        <tr>
+          <td>192</td>
+          <td>Rp 9.600.000</td>
+          <td>Fee 1.00% = Rp 96.000</td>
+          <td>Rp 9.504.000</td>
+        </tr>
+        <tr>
+          <td>193</td>
+          <td>Rp 9.650.000</td>
+          <td>Fee 1.00% = Rp 96.500</td>
+          <td>Rp 9.553.500</td>
+        </tr>
+        <tr>
+          <td>194</td>
+          <td>Rp 9.700.000</td>
+          <td>Fee 1.00% = Rp 97.000</td>
+          <td>Rp 9.603.000</td>
+        </tr>
+        <tr>
+          <td>195</td>
+          <td>Rp 9.750.000</td>
+          <td>Fee 1.00% = Rp 97.500</td>
+          <td>Rp 9.652.500</td>
+        </tr>
+        <tr>
+          <td>196</td>
+          <td>Rp 9.800.000</td>
+          <td>Fee 1.00% = Rp 98.000</td>
+          <td>Rp 9.702.000</td>
+        </tr>
+        <tr>
+          <td>197</td>
+          <td>Rp 9.850.000</td>
+          <td>Fee 1.00% = Rp 98.500</td>
+          <td>Rp 9.751.500</td>
+        </tr>
+        <tr>
+          <td>198</td>
+          <td>Rp 9.900.000</td>
+          <td>Fee 1.00% = Rp 99.000</td>
+          <td>Rp 9.801.000</td>
+        </tr>
+        <tr>
+          <td>199</td>
+          <td>Rp 9.950.000</td>
+          <td>Fee 1.00% = Rp 99.500</td>
+          <td>Rp 9.850.500</td>
+        </tr>
+        <tr>
+          <td>200</td>
+          <td>Rp 10.000.000</td>
+          <td>Fee 1.00% = Rp 100.000</td>
+          <td>Rp 9.900.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    // Toggle fungsi untuk menampilkan/menyembunyikan konten
+    document.getElementById("toggleButton").addEventListener("click", function() {
+      var content = document.querySelector(".content");
+      if (content.style.display === "none" || content.style.display === "") {
+        content.style.display = "block";
+        this.textContent = "Sembunyikan Contoh Pencairan";
+      } else {
+        content.style.display = "none";
+        this.textContent = "Lihat Contoh Pencairan";
+      }
+    });
+  </script>
+  
 <p><a href="https://SAFF35.github.io/Dashboard" class="button"><b>KEMBALI KE HOME</b></a></p>
 <br>
   <h4><b>Raih impian Anda menuju kebebasan finansial dan kesejahteraan dengan passive income.</b></h4>
